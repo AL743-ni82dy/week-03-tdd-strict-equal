@@ -6,8 +6,8 @@ const strictEqual = require('../stricteq').strictEqual
 describe('strictEqual', () => {
   it('returns true if two values have the same data type and value otherwise false', () => {
     // set-up test data
-    const first = 'a'
-    const second = 'a'
+    const first = 'd'
+    const second = 'd'
     const result = first === second
 
     // call function with test data
